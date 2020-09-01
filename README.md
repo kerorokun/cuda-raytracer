@@ -3,7 +3,7 @@
 This is a CUDA implementation of Kevin Beason's raytracer (https://www.kevinbeason.com/smallpt/). 
 <img src="https://github.com/kerorokun/cuda-raytracer/blob/master/images/result_25k.png" width="500" />
 
-This was both an exercise in how to convert a sequential CPU code into a parallelized GPU code as well as an exercise in GPU optimizations. The conversion from CPU code to GPU code looked like the following:
+This was both an exercise in how to convert a sequential CPU code into a parallelized GPU code as well as an exercise in GPU optimizations. The final GPU program works like the following:
 
 <img src="https://github.com/kerorokun/cuda-raytracer/blob/master/images/conversion.png" width="500" />
 
